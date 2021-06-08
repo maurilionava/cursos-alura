@@ -1,0 +1,58 @@
+:root{
+	--cinza: #D3D3D3;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.cabecalho__titulo{
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 1.5rem;
+}
+
+.banner__imagem{
+	width: 100%;
+}
+
+.sobre{
+	background: var(--cinza);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 3rem 1.5rem;
+}
+
+.sobre__titulo{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.sobre__texto{
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.beneficios{
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 1.5rem;
+}
+
+.beneficios__titulo{
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.beneficios__div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.beneficios__imagem{
+	width: 50%;
+}
