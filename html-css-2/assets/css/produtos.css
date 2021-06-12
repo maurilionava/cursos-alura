@@ -77,7 +77,7 @@
 }
 
 .rodape{
-    background: #000000;
+    background: url('../images/bg.jpg');
     color: #FFFFFF;
     text-align: center;
     padding: 2rem 0;
