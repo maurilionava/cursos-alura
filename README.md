@@ -1,2 +1,2 @@
 # cursos-alura
- Repositório para arquivos utilizados nos cursos da Alura.
+ Repositório de exercícios dos cursos da Alura.
