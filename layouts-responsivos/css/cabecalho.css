@@ -12,9 +12,10 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
 
-    border-bottom: 1px solid #103D4A;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
     position: absolute;
+    background: var(--bg-chamada-mobile);
 }
 
 .cabecalho__logo {
