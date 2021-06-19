@@ -1,4 +1,4 @@
-.container{
+.cabecalhoPrincipal .container{
     display: flex;
     justify-content: space-between;
 }
@@ -7,10 +7,45 @@
     display: flex;
 }
 
-.rodapePrincipal-navMap-list{
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0;
+}
+
+.videoSobre .container{
+    display: flex;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
+.videoSobre-video{
+    flex-shrink: 5;
+}
+
+.videoSobre-sobre{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-flow: column wrap;
     height: 250px;
 }
 
@@ -31,4 +66,62 @@
 
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+@media screen and (max-width: 
+768px){    
+    .cabecalhoPrincipal .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalhoPrincipal-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalhoPrincipal-nav-link-app{
+        order: -1;
+    }
+
+    .conteudoPrincipal-cursos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conteudoPrincipal-cursos-link{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .videoSobre .container{
+        flex-direction: column;
+    }
+    
+    .rodapePrincipal-navMap-list{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-patrocinadores-list{
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .rodapePrincipal-contatoForm{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+    }
 }
