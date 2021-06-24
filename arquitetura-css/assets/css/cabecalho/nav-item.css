@@ -1,0 +1,10 @@
+.nav__item{
+    font-weight: 400;
+    list-style: none;
+    margin-right: 1rem;
+    text-transform: lowercase;
+}
+
+.nav__item--ativo{
+    font-weight: 700;
+}

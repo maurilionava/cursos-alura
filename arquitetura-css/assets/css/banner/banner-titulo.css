@@ -1,0 +1,7 @@
+.banner__titulo{
+    color: var(--titulo-banner);
+    font-family: Pacifico, cursive;
+    font-size: 5rem;
+    font-weight: 300;
+    text-shadow: 3px 3px 5px black;
+}

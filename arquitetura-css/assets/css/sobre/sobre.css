@@ -1,0 +1,7 @@
+.sobre{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 15rem;
+    text-align: center;
+}
